@@ -1,0 +1,163 @@
+*{ 
+    font-family: 'Akaya Kanadaka', cursive;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url('/static/img/d4.jpg')center/cover no-repeat;
+    
+}
+
+#sponsorsSection,#footer{
+    background: url('/static/img/d7.jpg')center/cover no-repeat;
+}
+#navbar{
+    position: sticky;
+}
+#navbar{
+    background-color:black;
+    padding: 12px;  
+    font-size: 26px;
+    font-weight: bold;
+}
+#logo{
+    display: flex;
+    margin: 0px 14px;
+    color: white;
+    align-items: center;
+}
+#logo img{
+    height: 90px;
+    filter: invert(1);
+}
+
+#navbar ul{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+#navbar li{
+    list-style: none;
+    
+    
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 40px;
+}
+#navbar li a:hover{
+    color:aqua;
+
+}
+#introSection{
+    font-family: 'Akaya Kanadaka', cursive;
+    height: 1800px;
+    color: white;
+    font-size: 3rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;  
+}
+#introSection div.small{
+    animation-name: intro;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: -2s;
+}
+@keyframes intro {
+    from {color: black;}
+    to {color:white}
+  }
+#introSection div.small{
+    font-size: 35px;
+    padding: 10px;
+
+}
+#missionSection{
+    height: 400px;
+    color: rgb(14, 1, 1);
+    font-size: 2rem;
+    background-color: #e4f8ff;
+    
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 30%;
+    margin: 16px 33px;
+    height: 300px;
+}
+.card h3{
+    text-align: center;
+    margin: 5px 2px;
+   
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+height: 200px;
+padding: 0px 14px;
+}
+.card-img img{
+height: inherit;
+padding: 14px 8px;
+margin: 4px 26px;
+}
+.card-content {
+padding: 0px 14px;
+}
+.card-content p {
+padding: 10px 10px;
+}
+#sponsorsSection{
+    height: 300px;
+    color: rgb(247, 239, 239);
+    font-size: 2rem;
+    background-color: #f4f7f8;
+}
+#sponsorsSection h2{
+  text-align: center;
+  padding-top: 12px;
+}
+
+#sponsors{
+    text-align: center; 
+    align-items: center;
+    height: 121px;
+    max-width: 1000px;
+    margin: auto;
+    
+} 
+
+.spimg{
+    height: 80%;
+    margin: 50px 64px;
+}
+#footer{
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(8, 11, 15);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }

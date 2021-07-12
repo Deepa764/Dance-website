@@ -1,0 +1,39 @@
+#navbar{
+    position: sticky;
+}
+h1{padding: 12px;
+    color: white;
+    text-align: center;
+}
+.container{
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.myinput{
+    font-size: 28px;
+    width: 50%;
+    padding: 12px 15px;
+    margin: 12px 15px;
+    border: 2ps solid black;
+    border-radius: 10px;
+}
+.btn{
+    padding: 12px;
+    border: 2ps solid black;
+    border-radius: 10px;
+    font-size: 32px;
+margin: 12px 15px;
+cursor: pointer;
+    
+}
